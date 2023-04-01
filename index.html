@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Exercício jQuery</title>
+</head>
+<body>
+    <header>
+        <h1><i class="fa-solid fa-bars" style="color: #f0eee4;"> Controle sua vida</i></h1>
+    </header>
+    
+    <div id="introduction">
+        <h1>Lista de tarefas</h1>
+        <ul>
+            <li>Estudos</li>
+            <li>Trabalho</li>
+            <li>Financeiro</li>
+            <li>Pessoal</li>
+        </ul>
+    </div>
+    
+    <section id="tarefas">
+
+        <div id="form-tarefas">
+                <h2>Tarefas Estudos</h2>
+            <form id="t-estudantil">
+            <input id="nome-testudantil" type="text" required placeholder="Nome da tarefa">
+            <button type="submit">Adicionar</button>
+            </form>
+
+            <ul id="lista-estudantil" >
+            
+            </ul>
+        
+        </div>
+
+        <div id="form-tarefas">
+                <h2>Tarefas Profissionais</h2>
+            <form id="t-profissional">
+                <input id="nome-tprofissional" type="text" required placeholder="Nome da tarefa">
+                <button type="submit">Adicionar</button>
+            </form>
+
+            <ul id="lista-profissional" >
+            
+            </ul>
+        
+        </div>
+
+        <div id="form-tarefas">
+        <h2>Tarefas Financeiras</h2>
+        <form id="t-financeiro">
+            <input id="nome-financeiro" type="text" required placeholder="Nome da tarefa">
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <ul id="lista-financeiro" >
+            
+        </ul>
+        
+        </div>
+
+        <div id="form-tarefas">
+        <h2>Tarefas Pessoais</h2>
+        <form id="t-pessoal">
+            <input id="nome-pessoal" type="text" required placeholder="Nome da tarefa">
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <ul id="lista-pessoal" >
+            
+        </ul>
+        
+        </div>
+
+    </section>
+    
+    <script src="https://kit.fontawesome.com/4e6c613ae5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
