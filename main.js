@@ -38,22 +38,3 @@ form.addEventListener ('submit', function(e) {
         document.querySelector('.error-mesage').style.display = 'none';
     }
 })
-
-
-/*else {
-    numberTwo.style.border = '1px solid red';
-    document.querySelector('.error-mesage').style.display = 'block';
-}
-numberTwo.addEventListener('keyup', function(e) {
-    console.log(e.target.value);
-    numbersValido = verificaNumbers(e.target.value);
-
-    if (!numbersValido) {
-        numberTwo.classList.add('error');
-        document.querySelector('.error-mesage').style.display = 'block';
-    }else{
-        numberTwo.classList.remove('error');
-        document.querySelector('.error-mesage').style.display = 'none';
-    }
-
-})*/
