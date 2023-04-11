@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(26, 34, 44, 1) ;
+    color: #ccc;
+}
+#formulario, form, .campo{
+    flex-direction: column;
+    display: flex;
+}
+
+#formulario, form {
+    width: 900px;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.campo{
+    max-width: 400px;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.campo label{
+    display: block;
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+input, button{
+    height: 30px;
+    background-color: #ccc;
+}
+
+form  button{
+    max-width: 125px;
+    height: 30px;
+    cursor: pointer;
+}
+
+button{
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(129, 178, 209);
+    pointer-events: fill;
+}
+
+.class-erros{
+    color: red;
+    font-style: italic;
+}
