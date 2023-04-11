@@ -8,19 +8,18 @@ body{
     background-color: #18191f;
     color: aliceblue;
     font-family: 'Oswald', sans-serif;
+    width: 900px;
+    margin: auto;
+    margin-top: 10px;
 }
 
 header {
     font-size: 10px;
     display: flex;
-    justify-content: space-between;
-    height: 50px;
-    padding: 20px 50px 0 50px;
-    align-items: center;
 }
 
-#introduction ul {
-    display: flex;
+header h1 {
+    color: white;
 }
 
 #introduction h1 {
@@ -29,39 +28,19 @@ header {
 
 }
 
-#introduction ul li {
-    font-size: 20px;
-    list-style: none;
-    margin-left: 40px;
-    padding: 5px;
-    color: white;
-}
-
-
-header h1 {
-    padding: 5px;
-    color: white;
-
-}
 #introduction{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
-    padding: 5px;
+    margin-top: 20px;
     border-bottom: 5px solid white;
-
-}
-
-.line-through{
-    text-decoration: line-through;
 }
 
 #tarefas {
     display: flex;
-    justify-content: space-between;
-    margin: 0 80px 0 80px;
+    justify-content: center;
 }
+
 form{
     font-family: 'Oswald', sans-serif;
 }
@@ -70,7 +49,6 @@ form{
     text-align: center;
     padding: 15px;
     border-radius: 10px;
-    font-weight: bolder;
     border-bottom: solid 2px;
 }
 #form-tarefas ul {
@@ -80,13 +58,13 @@ form{
     align-items: flex-start;
 }
 
-#form-tarefas ul li {
+#lista-tarefas ul li {
     color: #e5cccc;
     cursor: pointer;
     padding: 10px;
 }
 
-#form-tarefas form input {
+form input {
     padding: 5px;
 }
 
@@ -96,15 +74,11 @@ button{
     font-family: 'Oswald', sans-serif;
 }
 
-#t-estudantil {
-    margin: 5px;
-}
-
-#lista-estudantil li, #lista-profissional li, #lista-financeiro li, #lista-pessoal li { 
+#lista-tarefa li { 
     cursor: pointer;
 }
 
-#lista-estudantil li.risco, #lista-profissional li.risco, #lista-financeiro li.risco, #lista-pessoal li.risco  {
+#lista-tarefas li.risco {
     text-decoration: line-through 4px red;
 }
 
